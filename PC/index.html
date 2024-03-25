@@ -1,0 +1,391 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/animate.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+  </head>
+  <body>
+    <!-- Блок header -->
+      <header class="header">
+          <div class="container">
+              <nav class="navbar pt-5 navbar-expand-lg navbar-dark">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                      <img src="./img/logo.png" width="30" height="30" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="d-flex justify-content-evenly navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-xl-2 mx-md-1">
+                          <a class="header_link nav-link active" aria-current="page" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-1">
+                          <a class="header_link nav-link active" aria-current="page" href="#">Курсы</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-1">
+                          <a class="header_link nav-link active" aria-current="page" href="#">Расписание</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-1">
+                          <a class="header_link nav-link active" aria-current="page" href="#">Преподаватели</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-1">
+                          <a class="header_link nav-link active" aria-current="page" href="#">Рассылка</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-1">
+                          <a class="header_link nav-link active" aria-current="page" href="#">Контакты</a>
+                        </li>
+                      </ul>
+                      <form class="d-flex">
+                        <button class="btn btn-outline-success" type="submit">Зайти в кабинет</button>
+                      </form>
+                    </div>
+                  </div>
+              </nav>
+              <div class="header_content d-flex align-items-center">
+                <div class="row align-items-center">
+                  <div class="col-xl-8">
+                    <h1 class="header_title mb-xl-5 mb-md-4 mb-ms-4">Первый курс по компьютерной сборке</h1>
+                    <div class="header_timer">
+                      <div class="block_time me-3">
+                        <h4 class="number days"></h4>
+                        <p class="measurement">Дней</p>
+                      </div>
+                      <div class="block_time me-5">
+                        <h4 class="number hours"></h4>
+                        <p class="measurement">Часов</p>
+                      </div>
+                      <div class="block_time me-3">
+                        <h4 class="number minutes"></h4>
+                        <p class="measurement">Минут</p>
+                      </div>
+                      <div class="block_time">
+                        <h4 class="number seconds"></h4>
+                        <p class="measurement">Секунд</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="haeder_foot d-flex align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-2">
+                  <button class="btn btn-outline-success" type="submit">Зайти в кабинет</button>
+                </div>
+                <div class="col-xl-2">
+                  <div class="statistics">
+                    <h1 class="title_statistic">Учеников всего:</h1>
+                    <p class="statisitc_value">200</p>
+                  </div>
+                  <div class="statistics">
+                    <h1 class="title_statistic">Успешно закончили курс:</h1>
+                    <p class="statisitc_value">190</p>
+                  </div>
+                </div>
+                <div class="col-xl-7 offset-xl-1">
+                  <div class="statistics">
+                    <h1 class="title_statistic">Заработано учениками:</h1>
+                    <p class="statisitc_value">400 000₽</p>
+                  </div>
+                  <div class="progress" style="height: 6px;">
+                    <div class="progress-bar bg-grad" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </header>
+      <!-- Блок О нас -->
+      <div class="About">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-5 wow animate__animated animate__fadeInLeft">
+              <img src="./img/about__img.png" alt="">
+            </div>
+            <div class="col-xl-6 offset-xl-1 d-flex justify-content-center align-items-center">
+              <div class="about_content wow animate__animated animate__fadeInRight">
+                <h1 class="title_about">Чем мы занимаемся?</h1>
+                <p class="subtitle_about">Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Eget neque,
+                  dignissim et feugiat elit augue in suspendisse egestas.
+                  Dictum vestibulum mi et sed nunc, orci fermentum vestibulum,
+                  morbi. Et neque, adipiscing sapien sem senectus praesent aenean consequat.
+                  Aenean facilisi turpis aliquet fringilla. Nunc sem felis sed interdum feugiat mattis elit,
+                  sollicitudin. Quam pharetra rhoncus risus, cursus id elementum aliquet.
+                  Nullam turpis arcu malesuada arcu interdum placerat nisi, lobortis. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Блок Быстрый старт -->
+      <div class="Fast_start">
+        <div class="container">
+          <div class="title_block_start d-flex align-items-center  wow animate__animated animate__fadeInDown">
+            <img src="./img/icon-heading.png" alt="">
+            <h1 class="title_start">Быстрый старт</h1>
+          </div>
+          <p class="subtitle_start  wow animate__animated animate__fadeInDown">Больше 90% учеников прошли полный курс и смогли<br> собрать свой первый компьютер</p>
+          <div class="row my-5 gy-3 d-flex justify-content-center align-items-center wow animate__animated animate__fadeInUp">
+            <div class="col-xl-3 px-0">
+              <div class="block_start">
+                <h1 class="procent" id="proc_100">100%</h1>
+                <p class="subtitle_procent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+              </div>
+            </div>
+            <div class="col-xl-3 px-0">
+              <div class="block_start">
+                <h1 class="procent" id="proc_75">75%</h1>
+                <p class="subtitle_procent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+              </div>
+            </div>
+            <div class="col-xl-3 px-0"> 
+              <div class="block_start">
+                <h1 class="procent" id="proc_50">50%</h1>
+                <p class="subtitle_procent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+              </div>
+            </div>
+            <div class="col-xl-3 px-0">
+              <div class="block_start">
+                <h1 class="procent" id="proc_0">Итог</h1>
+                <p class="subtitle_procent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Блок Преимещества -->
+      <div class="Advantages">
+        <div class="container">
+          <div class="block_title_advantages d-flex justify-content-center align-items-center  wow animate__animated animate__fadeInDown">
+            <h1>Получите профессию прямо сейчас</h1>
+          </div>
+          <div class="row">
+            <div class="col-xl-4 block_adv col-md-4  d-flex justify-content-center align-items-center flex-column wow animate__animated animate__zoomIn">
+              <img class="img_adv" src="img/icon-1.png" alt="компьютер">
+              <h1 class="title_block_advantages">Только практические
+                навыки в работе</h1>
+                <p class="subtitle_block_advantages">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+            </div>
+            <div class="col-xl-4 block_adv col-md-4 d-flex justify-content-center align-items-center flex-column wow animate__animated animate__zoomIn">
+              <img class="img_adv" src="img/icon-2.png" alt="Флешка">
+              <h1 class="title_block_advantages">Работа на самом
+                современном оборудовании</h1>
+                <p class="subtitle_block_advantages">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+            </div>
+            <div class="col-xl-4 block_adv col-md-4 d-flex justify-content-center align-items-center flex-column wow animate__animated animate__zoomIn">
+              <img class="img_adv" src="img/icon-3.png" alt="USB-Проводо">
+              <h1 class="title_block_advantages">Сертификация
+                по окончании обучения</h1>
+                <p class="subtitle_block_advantages">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus eget velit quisque accumsan amet tortor. Velit, volutpat egestas fringilla mi porttitor tempus. Placerat dui.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Блок Партнеры -->
+      <div class="Partners">
+        <div class="container">
+          <div class="title_block_partners d-flex align-items-center">
+            <img class="me-5" src="./img/Ellipse 1 (Stroke).png" alt="Полукольцо">
+            <h1 class="title_start">Партнеры - топовые бренды </h1>
+          </div>
+          <div class="row my-5 Partners_content gy-3 justify-content-center align-items-center">
+            <div class="col-xl-3 col-md-3 text-center border-end border-bottom border-secondary"><img src="./img/logo_partners.png" alt="MSI"></div>
+            <div class="col-xl-3 col-md-3 text-center border-end border-bottom border-secondary"><img src="./img/logo_partners.png" alt="MSI"></div>
+            <div class="col-xl-3 col-md-3 text-center border-end border-bottom border-secondary"><img src="./img/logo_partners.png" alt="MSI"></div>
+            <div class="col-xl-3 col-md-3 text-center border-bottom border-secondary"><img src="./img/logo_partners.png" alt="MSI"></div>
+            <div class="col-xl-3 col-md-3 m-0 text-center border-top border-end border-secondary"><img src="./img/logo_partners.png" alt="MSI"></div>
+            <div class="col-xl-3 col-md-3 m-0  text-center border-top border-end border-secondary"><img src="./img/logo_partners.png" alt="MSI"></div>
+            <div class="col-xl-3 col-md-3 m-0  text-center border-top border-end border-secondary"><img src="./img/logo_partners.png" alt="MSI"></div>
+            <div class="col-xl-3 col-md-3 m-0  text-center border-top border-secondary"><img src="./img/logo_partners.png" alt="MSI"></div>
+          </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide Carusel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="block_carusel">
+                <img src="./img/logo_partners.png" class="d-block w-50" alt="MSI">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="block_carusel">
+                <img src="./img/logo_partners.png" class="d-block w-50" alt="MSI">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="block_carusel">
+                <img src="./img/logo_partners.png" class="d-block w-50" alt="MSI">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+      <!-- Блок Обучения -->
+      <div class="Training">
+        <div class="container">
+          <div class="title_training_block d-flex flex-column text-center align-items-center">
+            <img src="./img/icon-heading2.png" alt="Полукольцо">
+            <h1 class="title_training">Программа обучения</h1>
+            <p class="subtitle_training">Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер</p>
+          </div>
+          <div class="content_training d-flex justify-content-center align-items-center flex-column">
+            <div class="row">
+              <div class="col-xl-5 col-md-5 col-sm-5 offset-sm-1 col-5 offset-1 offset-md-1 offset-xl-1 p-0 text-end">
+                <div class="content_block_training wow animate__animated animate__fadeInLeftBig m-0">
+                  <div class="block_training">
+                    <h6 class="title_block_training">Неделя №1</h6>
+                    <p class="subtitle_block_training">Красивая часть курса,
+                      которая помогает в успехе</p>
+                  </div>
+                  <div class="right"></div>
+                </div>
+                <div class="content_block_training wow animate__animated animate__fadeInLeftBig">
+                  <div class="block_training">
+                    <h6 class="title_block_training">Неделя №1</h6>
+                    <p class="subtitle_block_training">Красивая часть курса,
+                      которая помогает в успехе</p>
+                  </div>
+                  <div class="right"></div>
+                </div>
+                <div class="content_block_training wow animate__animated animate__fadeInLeftBig">
+                  <div class="block_training">
+                    <h6 class="title_block_training">Неделя №1</h6>
+                    <p class="subtitle_block_training">Красивая часть курса,
+                      которая помогает в успехе</p>
+                  </div>
+                  <div class="right"></div>
+                </div>
+                <div class="content_block_training wow animate__animated animate__fadeInLeftBig">
+                  <div class="block_training">
+                    <h6 class="title_block_training">Неделя №1</h6>
+                    <p class="subtitle_block_training">Красивая часть курса,
+                      которая помогает в успехе</p>
+                  </div>
+                  <div class="right"></div>
+                </div>
+              </div>
+              <div class="vr_linear p-1 col-xl-1"></div>
+              <div class="col-xl-5 col-md-5 col-sm-5 col-5 d-flex flex-column p-0">
+                <div class="content_block_training wow animate__animated animate__fadeInRightBig">
+                  <div class="left"></div>
+                  <div class="block_training align-items-start">
+                    <h6 class="title_block_training">Неделя №1</h6>
+                    <p class="subtitle_block_training">Красивая часть курса,
+                      которая помогает в успехе</p>
+                  </div>
+                </div>
+                <div class="content_block_training wow animate__animated animate__fadeInRightBig">
+                  <div class="left"></div>
+                  <div class="block_training align-items-start">
+                    <h6 class="title_block_training">Неделя №1</h6>
+                    <p class="subtitle_block_training">Красивая часть курса,
+                      которая помогает в успехе</p>
+                  </div>
+                </div>
+                <div class="content_block_training wow animate__animated animate__fadeInRightBig">
+                  <div class="left"></div>
+                  <div class="block_training align-items-start">
+                    <h6 class="title_block_training">Неделя №1</h6>
+                    <p class="subtitle_block_training">Красивая часть курса,
+                      которая помогает в успехе</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Блок Наши учителя -->
+      <div class="Teachers">
+        <div class="container">
+          <div class="title_teachers_block d-flex align-items-center wow animate__animated animate__fadeInDown">
+            <img class="me-5 mb-5" src="./img/icon-heading3.png" alt="">
+            <h1 class="title_teachers">Ваши преподаватели</h1>
+          </div>
+          <div class="row text-center">
+            <div class="col-xl-4 col-md-4 col-sm-4 wow animate__animated animate__zoomIn">
+              <div class="block_teachers">
+                <img src="./img/Ellipse 2.png" alt="Преподаватель" class="img_teachers">
+                <h1 class="name">Дмитрий Иванов</h1>
+                <p class="job">Специалист по видеокартам</p>
+                <button href="" class="btn-biogr btn">Биография</button>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-sm-4 wow animate__animated animate__zoomIn">
+              <div class="block_teachers">
+                <img src="./img/Ellipse 3.png" alt="Преподаватель" class="img_teachers">
+                <h1 class="name">Дмитрий Иванов</h1>
+                <p class="job">Специалист по видеокартам</p>
+                <button href="" class=" btn btn-biogr">Биография</button>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-sm-4 wow animate__animated animate__zoomIn">
+              <div class="block_teachers">
+                <img src="./img/Ellipse 4.png" alt="Преподаватель" class="img_teachers">
+                <h1 class="name">Дмитрий Иванов</h1>
+                <p class="job">Специалист по видеокартам</p>
+                <button href="" class="btn btn-biogr ">Биография</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Блок Контакты -->
+      <footer class="Contacts">
+        <div class="container">
+          <div class="title_contacts_block d-flex flex-column align-items-center">
+            <h1 class="title_training">Статьи каждую неделю</h1>
+            <p class="subtitle_training">Больше 90% учеников прошли полный курс и смогли<br> собрать свой первый компьютер</p>
+          </div>
+          <form action="" class="block_form d-flex justify-content-center align-items-center">
+            <input type="text" class="email" placeholder="E-mail">
+            <button class="btn">Подписаться</button>
+          </form>
+          <div class="block_network d-flex justify-content-center align-items-center ">
+            <div class="blcok_icon">
+              <a href=""><img src="./img/1.png" alt="Vkontakte" class="icon_network"></a>
+            </div>
+            <div class="blcok_icon">
+              <a href=""><img src="./img/2.png" alt="Youtube" class="icon_network"></a>
+            </div>
+            <div class="blcok_icon">
+              <a href=""><img src="./img/3.png" alt="Facebook" class="icon_network"></a>
+            </div>
+            <div class="blcok_icon">
+              <a href=""><img src="./img/4.png" alt="Instagram" class="icon_network"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="./js/script.js"></script>
+      <script src="./js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+  </body>
+  </html>
